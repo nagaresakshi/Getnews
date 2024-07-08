@@ -9,9 +9,7 @@ import {BrowserRouter as Router,Routes,Route,} from "react-router-dom";
 
 const App=()=>{
   const pagesize=9
-  const [progress,setProgress]=useState(0)
-  
-  setProgress(progress);
+  const [progress,setProgress]=useState(0);
     return (
       <div>
         <Router>
